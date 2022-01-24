@@ -27,19 +27,21 @@ header h1{
 }
 
 main {
+  text-align: center;
+  margin: 0 10px 0 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
 ul {
-  text-align: center;
   list-style: none;
   padding: 0;
 }
 
 #game-rule-img {
   max-width: 45%;
+  min-width: 300px;
   height: auto;
 }
 
@@ -50,8 +52,12 @@ ul {
     align-items: center;
   }
 
-  header h1 {
+  h1 {
     font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1em;
   }
 
   .logo-header {
