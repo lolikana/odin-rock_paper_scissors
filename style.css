@@ -40,7 +40,8 @@ ul {
 }
 
 #game-rule-img {
-  max-width: 45%;
+  width: 100%;
+  max-width: 600px;
   min-width: 300px;
   height: auto;
 }
@@ -68,4 +69,24 @@ ul {
   .logo-header.right {
     display: none;
   }
+
+  main {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap-reverse;
+  }
+
+  #game-rule-img {
+    order: 1;
+  }
+
+  aside-left {
+    order: 2
+  }
+
+  aside-right {
+    order: 3;
+  }
+
+
 }
