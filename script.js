@@ -1,34 +1,25 @@
 /*
-WHEN Player click on button
-   HIGHLIGHT choice
-   Computer choose random between button & HIGHLIGHT choice
-
-
 IF Player = ROCK AND Computer = LIZARD OR Computer = SCISSORS,
    Player = PAPER AND Computer = ROCK or Computer = SPOCK,
    Player = SCISSORS AND Computer = PAPER or Computer = LIZARD,
    Player = LIZARD AND Computer = PAPER or Computer = SPOCK,
    Player = SPOCK AND Computer = SCISSORS or Computer = ROCK;
-   > RESULT SHOW window "Player win" with button "next battle";
-            Player score +1;
+   > RESULT  "Player win";
+             Player score +1
+
   ELSE IF Player === Computer
-   > RESULT SHOW window "Draft! It was a close one" with button "next battle";
+   > RESULT "Tie match";
+
   ELSE
-   > RESULT SHOW window "Computer win" with button "next battle";
+   > RESULT "Computer win";
             Computer score +1;
 
 IF Player SCORE === 5
-   > RESULT SHOW window "YOU WIN" with button "Try Again";
+   > RESULT SHOW message "YOU WIN" with button "Try Again";
   ELSE IF Computer SCORE === 5
-   > RESULT SHOW window "COMPUTER WIN" with button "Try Again";
+   > RESULT SHOW message  "COMPUTER WIN" with button "Try Again";
    ELSE
-   > continue game
-
-CILCK on button "next battle"
-  > RESULT reset HIGHLIGHT choice
-
-CLICK on button "Try Again"
-  > RESULT reset game
+   > ... continue game
 
 */
 
