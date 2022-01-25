@@ -34,7 +34,7 @@ function playRound() {
         || (playerSelection === "spock" && (computerSelection === "scissors" || computerSelection === "rock"))) {
       resultBattle = "Player Win";
     } else if (playerSelection === computerSelection) {
-      resultBattle = "Ex aequo! Close one";
+      resultBattle = "Exaequo! That was a close one";
     } else {
       resultBattle = "Computer Win";
     };
