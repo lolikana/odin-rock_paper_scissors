@@ -24,12 +24,12 @@ function playerPlay() {
   return choiceArray[Math.floor(Math.random() * choiceArray.length)];
 }
 const playerSelection = playerPlay();
-console.log("player choosed " + playerSelection);
+console.log("Player: " + playerSelection);
 
 function computerPlay() {
   return choiceArray[Math.floor(Math.random() * choiceArray.length)];
 }
 const computerSelection = computerPlay();
-console.log("computer choosed " + computerSelection);
+console.log("Computer: " + computerSelection);
 
 console.log(playRound(playerSelection, computerSelection));
