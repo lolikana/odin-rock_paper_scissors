@@ -12,6 +12,9 @@
       <li>Functions</li>
       <li>Loops</li>
      </ul>
+     
+     <p>Memo: change CSS Font😅 ...<p>
+     
      <p>In progress...</p>
 
      
