@@ -1,10 +1,19 @@
 const choiceArray = ["rock", "paper", "scissors", "lizard", "spock"];
 
-function playerPlay() {
-  return choiceArray[Math.floor(Math.random() * choiceArray.length)];
-}
 
-  /*
+  const rockBtn = document.getElementsByClassName("rock");
+  const paperBtn = document.getElementsByClassName("paper");
+  const scissorsBtn = document.getElementsByClassName("scissors");
+  const lizardBtn = document.getElementsByClassName("lizard");
+  const spockBtn = document.getElementsByClassName("spock");
+
+
+  function playerPlay() {
+    return choiceArray[Math.floor(Math.random() * choiceArray.length)];
+  }
+
+
+/*
     function playerPlay() {
       let playerMessage = prompt("Choose wisely between Rock, Paper, Scissors, Lizard & Spock");
       while (choiceArray.includes(playerMessage.toLowerCase()) === false) {
@@ -14,7 +23,7 @@ function playerPlay() {
     }
     const playerSelection = playerPlay();
     console.log("Player: " + playerSelection)
-  */
+*/
 
 function computerPlay() {
   return choiceArray[Math.floor(Math.random() * choiceArray.length)];
@@ -26,6 +35,7 @@ const scoreComputerArray = [];
 const scoreTie = [];
 
 function game() {
+
   const playerSelection = playerPlay();
   console.log("Player: " + playerSelection);
 
@@ -60,15 +70,24 @@ function game() {
      return scoreComputerArray;
      return scoreTie;
    };
+
    console.log(playRound(playerSelection, computerSelection));
+
    console.log("Player score: "+ scorePlayerArray.length);
    console.log("Computer score: " + scoreComputerArray.length);
    console.log("Tie score: " + scoreTie.length);
 }
 
+//5 games in a row
 for (let i = 0; i < 5; i++) {
   game();
 }
+
+
+console.log(scorePlayerArray);
+console.log(scoreComputerArray);
+document.getElementById("score_player").innerHTML = scorePlayerArray.length;
+document.getElementById("score_bot").innerHTML = scoreComputerArray.length;
 
 if (scorePlayerArray.length < scoreComputerArray.length) {
   alert("Computer won");
