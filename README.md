@@ -11,6 +11,7 @@
       <li>Conditionals</li>
       <li>Functions</li>
       <li>Loops</li>
+      <li>DOM</li>
      </ul>
 <p> Memo: change CSS Font 😅...</p>
      
