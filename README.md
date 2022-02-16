@@ -1,5 +1,5 @@
 # odin-rock_paper_scissors
- 
+
  <h1> The Odin Project : Foundations (Project 3) - JAVASCRIPT</h1>
   <h2>Javascript</h2>
     <h3>Project : Rock Paper Scissors Game</h3>
@@ -13,7 +13,10 @@
       <li>Loops</li>
       <li>DOM</li>
      </ul>
-<p> Memo: change CSS Font 😅...</p>
+<p> Memo : 
+<br>change CSS Font 
+<br>Button call function with the correct playerSelection 
+	</p>
      
 <p>In progress...</p>
 
