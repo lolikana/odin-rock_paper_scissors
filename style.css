@@ -68,26 +68,12 @@ button {
   padding: 10px;
 }
 
-button:hover.player {
+button:hover.player, button:hover.bot {
   background-color: #5FC5BA;
   color: #14143c;
 }
 
-button:focus.player{
-  background-color: #5FC5BA;
-  color: #14143c;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-/*
-button.bot {
-  background-color: #5FC5BA;
-  color: #14143c;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-*/
-button:focus.player{
+button:focus.player, button:focus.bot {
   background-color: #5FC5BA;
   color: #14143c;
   box-shadow: 0 5px #666;
