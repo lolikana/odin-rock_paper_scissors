@@ -8,6 +8,7 @@ const pressButtonBot = document.getElementsByClassName("buttons_bot");
 function playerPlay() {
   return choiceArray[Math.floor(Math.random() * choiceArray.length)];
 }
+*/
 /*
 //prompt player selection
     function playerPlay() {
@@ -21,21 +22,31 @@ function playerPlay() {
     console.log("Player: " + playerSelection)
 */
 
+//random computer selection
 function computerPlay() {
-  return choiceArray[Math.floor(Math.random() * choiceArray.length)];
+  return pressButtonBot[Math.floor(Math.random() * pressButtonBot.length)];
 }
+
+/*
+function computerPlay() {
+      return pressButtonBot[Math.floor(Math.random() * pressButtonBot)];
+}
+*/
 
 let resultBattle;
 const scorePlayerArray = [];
 const scoreComputerArray = [];
 const scoreTie = [];
 
+//play function game when player selections a button
 for (let i = 0; i < pressButton.length; i++) {
-  pressButton[i].addEventListener("click", function game() {
-    const playerSelection = pressButton[i].id;
+  pressButton[i].addEventListener("click", game);
+
+function game() {
+    const playerSelection = pressButton[i].innerHTML.toLowerCase();
     console.log("Player: " + playerSelection);
 
-    const computerSelection = computerPlay();
+    const computerSelection = computerPlay().innerHTML.toLowerCase();
     console.log("Computer: " + computerSelection);
 
     function playRound(playerSelection, computerSelection) {
@@ -72,13 +83,11 @@ for (let i = 0; i < pressButton.length; i++) {
     console.log(scoreComputerArray);
     document.getElementById("score_player").innerHTML = scorePlayerArray.length;
     document.getElementById("score_bot").innerHTML = scoreComputerArray.length;
-  });
+  };
 };
 
-
-
 /*
-//5 games in a row
+//play 5 games in a row
 for (let i = 0; i < 10; i++) {
   game();
 }
