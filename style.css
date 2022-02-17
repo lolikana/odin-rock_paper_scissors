@@ -68,12 +68,12 @@ button {
   padding: 10px;
 }
 
-button:hover.player, button:hover.bot {
+button:hover.buttons_player, button:hover.buttons_bot {
   background-color: #5FC5BA;
   color: #14143c;
 }
 
-button:focus.player, button:focus.bot {
+button:focus.buttons_player, button:focus.buttons_bot {
   background-color: #5FC5BA;
   color: #14143c;
   box-shadow: 0 5px #666;

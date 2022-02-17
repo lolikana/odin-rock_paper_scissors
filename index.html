@@ -20,13 +20,15 @@
     <main>
       <aside id="aside-left">
         <h2>PLAYER</h2>
-        <ul>
-          <li><button type="button" class="rock player">ROCK</button></li>
-          <li><button type="button" class="paper player">PAPER</button></li>
-          <li><button type="button" class="scissors player">SCISSORS</button></li>
-          <li><button type="button" class="lizard player">LIZARD</button></li>
-          <li><button type="button" class="spock player">SPOCK</button></li>
-        </ul>
+        <div>
+          <ul>
+            <li><button type="button" id="rock" class="buttons_player">ROCK</button></li>
+            <li><button type="button" id="paper" class="buttons_player">PAPER</button></li>
+            <li><button type="button" id="scissors" class="buttons_player">SCISSORS</button></li>
+            <li><button type="button" id="lizard" class="buttons_player">LIZARD</button></li>
+            <li><button type="button" id="spock" class="buttons_player">SPOCK</button></li>
+          </ul>
+        </div>
         <div class="score-div">
           <h3>SCORE</h3>
             <p id="score_player">
@@ -37,13 +39,15 @@
       <img id="game-rule-img" src="img/game-rule.png" alt="Rule of rock, paper, scissors, lizard, spock" title="Rule of the game" />
       <aside id=aside-right>
         <h2>COMPUTER</h2>
-        <ul>
-          <li><button type="button" class="rock bot">ROCK</button></li>
-          <li><button type="button" class="paper bot">PAPER</button></li>
-          <li><button type="button" class="scissors bot">SCISSORS</button></li>
-          <li><button type="button" class="lizard bot">LIZARD</button></li>
-          <li><button type="button" class="spock bot">SPOCK</button></li>
-        </ul>
+        <div id="buttons_bot">
+          <ul>
+            <li><button type="button" id="rock_bot" class="buttons_bot">ROCK</button></li>
+            <li><button type="button" id="paper_bot" class="buttons_bot">PAPER</button></li>
+            <li><button type="button" id="scissors_bot" class="buttons_bot">SCISSORS</button></li>
+            <li><button type="button" id="lizard_bot" class="buttons_bot">LIZARD</button></li>
+            <li><button type="button" id="spock_bot" class="buttons_bot">SPOCK</button></li>
+          </ul>
+        </div>
         <div class="score-div">
           <h3>SCORE</h3>
             <p id="score_bot">
