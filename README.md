@@ -1,10 +1,10 @@
-odin-rock_paper_scissors
+#odin-rock_paper_scissors
 
-The Odin Project : Foundations (Project 3) - JAVASCRIPT
+##The Odin Project : Foundations (Project 3) - JAVASCRIPT
 
-Javascript
+###Javascript
 
-Project : Rock Paper Scissors Game
+####Project : Rock Paper Scissors Game
 
 First javascript project using everything I learned until now:
      <ul>
@@ -17,14 +17,13 @@ First javascript project using everything I learned until now:
       <li>DOM</li>
      </ul>
 Memo :
-- [ ] change CSS Font
+- [x] change CSS Font
 - [x] Button call function with the correct playerSelection
-- [ ] Make button active after computerSelection
-- [ ] Show who is the winner after each round (delete alert())
-- [ ] Create a reset function when one of the gamer reach 5 points
+- [x] Show who is the winner after each round (delete alert())
+- [x] Create a reset function when one of the gamer reach 5 points
 
 Extra :
-- [ ] Make better looking button
-- [ ] Rewrite CSS
+- [x] Make better looking button
+- [x] Rewrite CSS
 
- In progress...
+ #update: Project Done
