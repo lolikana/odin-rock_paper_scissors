@@ -1,10 +1,10 @@
-# odin-rock_paper_scissors
+odin-rock_paper_scissors
 
-## The Odin Project : Foundations (Project 3) - JAVASCRIPT
+The Odin Project : Foundations (Project 3) - JAVASCRIPT
 
-### Javascript
+Javascript
 
-#### Project : Rock Paper Scissors Game
+Project : Rock Paper Scissors Game
 
 First javascript project using everything I learned until now:
      <ul>
@@ -27,5 +27,4 @@ Extra :
 - [ ] Make better looking button
 - [ ] Rewrite CSS
 
-
-# In progress...
+ In progress...
