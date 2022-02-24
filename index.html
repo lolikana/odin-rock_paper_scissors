@@ -1,58 +1,72 @@
 <!DOCTYPE html>
-  <html>
+<html>
 
-  <head>
-    <meta charset="UTF=8" />
-    <title>Project JS - Rock Paper Scissors</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
-  </head>
+<head>
+  <meta charset="UTF=8" />
+  <title>Project JS - Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
 
-  <body>
-    <header>
-      <img class="logo-header left" src="img/atom-symbol.png" alt="Atom Logo" title="Atom logo used in Big Bang Theory" />
-      <div>
-        <h1>ROCK, PAPER, SCISSORS, LIZARD, SPOCK</h1>
+<body>
+  <header>
+    <img class="logo-header left" src="img/atom-symbol.png" alt="Atom Logo" title="Atom logo used in Big Bang Theory" />
+    <div>
+      <h1>ROCK, PAPER, SCISSORS, LIZARD, SPOCK</h1>
+    </div>
+    <img class="logo-header right" src="img/atom-symbol.png" alt="Atom Logo" title="Atom logo used in Big Bang Theory" />
+  </header>
+
+  <div id="end-modal">
+    <div id="modal-content">
+      <p id="end-msg">
+
+      </p>
+
+      <button id="reset-btn">Play again</button>
+    </div>
+  </div>
+
+  <aside id="aside-left">
+    <h2>Make your choice</h2>
+    <div id="div-buttons">
+      <ul>
+        <li><button type="button" id="rock" class="buttons-player button-53" role="button">ROCK</button></li>
+        <li><button type="button" id="paper" class="buttons-player button-53">PAPER</button></li>
+        <li><button type="button" id="scissors" class="buttons-player button-53">SCISSORS</button></li>
+        <li><button type="button" id="lizard" class="buttons-player button-53">LIZARD</button></li>
+        <li><button type="button" id="spock" class="buttons-player button-53">SPOCK</button></li>
+      </ul>
+    </div>
+    <div class="div-score">
+      <div id="div-player">
+        <h3>Player</h3>
+        <p id="score-player">
+          0
+        </p>
       </div>
-      <img class="logo-header right" src="img/atom-symbol.png" alt="Atom Logo" title="Atom logo used in Big Bang Theory" />
-    </header>
+      <div id="div-bot">
+        <h3>Computer</h3>
+        <p id="score-bot">
+          0
+        </p>
+      </div>
+    </div>
+  </aside>
 
-    <main>
-      <aside id="aside-left">
-        <h2>PLAYER</h2>
-        <ul>
-          <li><button type="button" class="rock player">ROCK</button></li>
-          <li><button type="button" class="paper player">PAPER</button></li>
-          <li><button type="button" class="scissors player">SCISSORS</button></li>
-          <li><button type="button" class="lizard player">LIZARD</button></li>
-          <li><button type="button" class="spock player">SPOCK</button></li>
-        </ul>
-        <div class="score-div">
-          <h3>SCORE</h3>
-            <p class="score player">
-              1
-            </p>
-        </div>
-      </aside>
-      <img id="game-rule-img" src="img/game-rule.png" alt="Rule of rock, paper, scissors, lizard, spock" title="Rule of the game" />
-      <aside id=aside-right>
-        <h2>COMPUTER</h2>
-        <ul>
-          <li><button type="button" class="rock bot">ROCK</button></li>
-          <li><button type="button" class="paper bot">PAPER</button></li>
-          <li><button type="button" class="scissors bot">SCISSORS</button></li>
-          <li><button type="button" class="lizard bot">LIZARD</button></li>
-          <li><button type="button" class="spock bot">SPOCK</button></li>
-        </ul>
-        <div class="score-div">
-          <h3>SCORE</h3>
-            <p class="score bot">
-              2
-            </p>
-        <div>
-      </aside>
-    </main>
+    <img id="game-rule-img" src="img/game-rule.png" alt="Rule of rock, paper, scissors, lizard, spock" title="Rule of the game" />
 
-  </body>
+  <div id="div-result">
+    <p id="result-battle">
 
-  </html>
+    </p>
+  </div>
+
+  <footer>
+    <p>
+      Copyright &copy; <a href="https://github.com/lolikana">lolikana</a> 2022
+    </p>
+  </footer>
+</body>
+
+</html>
