@@ -26,4 +26,10 @@ Extra :
 - [x] Make better looking button
 - [x] Rewrite CSS
 
+Credits : 
+
+Rock-paper-scissors-lizard-Spock game rules : <em><cite>The Big Bang Theory</cite></em> (American sitcom)
+<br>Buttons : <em>Alpine Day</em>
+<br>"Play again" button : <em><a href="https://codepen.io/stevenlei">Steven Lei</a></em>
+
  # update: Project Done
