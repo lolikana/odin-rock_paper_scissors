@@ -1,6 +1,6 @@
 # odin-rock_paper_scissors
 
-## The Odin Project : Foundations (Project 3) - JAVASCRIPT
+## <a href="https://www.theodinproject.com/">The Odin Project</a> : Foundations (Project 3) - JAVASCRIPT
 
 ### Javascript
 
