@@ -187,6 +187,7 @@ h2, h3, p {
    box-shadow: 6px 0px 0px #5FC5BA;
    outline: transparent;
    position: relative;
+   cursor: pointer;
 }
 
 #reset-btn::after {
