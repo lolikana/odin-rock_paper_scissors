@@ -6,7 +6,7 @@
 
 #### Project : Rock Paper Scissors Game
 
-<a href="https://odin-rock-paper-scissors-two.vercel.app/" target="_blank">Live Preview</a> with Vercel.
+<a href="https://lolikana.github.io/odin-rock_paper_scissors/" target="_blank">Live Preview</a> with Github.
 
 
 First javascript project using everything I learned until now:
